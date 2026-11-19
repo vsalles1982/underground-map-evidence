@@ -21,4 +21,17 @@ enviadas separadamente para revisão do Tech Lead.
 sha256sum antes-cena-europa-decorada.png cena-europa-relevo.png
 ```
 
-Repositório somente de evidências. Nenhum código do projeto foi publicado aqui.
+## Validação do corretor de T-junction (2026-11-19)
+
+Harness e saída integral da verificação comportamental das três arestas do triângulo,
+conforme solicitado pelo Tech Lead:
+
+| Arquivo | SHA-256 |
+|---|---|
+| `validacao-tjunction/verificar-tjunction.ts` | `78c50c653a33a53f43066984e2aab208140c74df2bde9da103ffe37847d1a6a6` |
+| `validacao-tjunction/verificacao.txt` | `20e63d6d192d3b391b25dd184cdc14c65ec391d5786c65f7d44ec7ca64e189f7` |
+
+- https://raw.githubusercontent.com/vsalles1982/underground-map-evidence/main/validacao-tjunction/verificar-tjunction.ts
+- https://raw.githubusercontent.com/vsalles1982/underground-map-evidence/main/validacao-tjunction/verificacao.txt
+
+Repositório somente de evidências. Nenhum código de produção do projeto foi publicado aqui.

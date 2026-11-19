@@ -1,0 +1,15 @@
+=== VERIFICACAO 1: tres arestas, sintetico ===
+caso | antigo(va/vb) | corrigido(u/v) | esperado | status
+sem ponto medio espurio | 0 | 0 | 0 | OK
+interior de a-b | 1 | 1 | 1 | OK
+interior de b-c | 0 | 1 | 1 | OK
+interior de c-a | 0 | 1 | 1 | OK
+reta de a-b, fora do segmento | 0 | 0 | 0 | OK
+fora da reta | 0 | 0 | 0 | OK
+
+=== VERIFICACAO 2: dados reais Natural Earth 110m ===
+execucao 1: {"triangles":3131,"vertices":2324,"generationMs":621.428524,"minHeight":0.004,"maxHeight":0.22982424737401652,"tJunctions":0,"oceanTriangles":0,"holeTriangles":0,"nonFiniteVertices":0,"invalidIndices":0,"degenerateTriangles":0,"weakCoastalVertices":0,"validationRun":true} hash=2e47a05358b57ebd
+execucao 2: {"triangles":3131,"vertices":2324,"generationMs":615.1469539999999,"minHeight":0.004,"maxHeight":0.22982424737401652,"tJunctions":0,"oceanTriangles":0,"holeTriangles":0,"nonFiniteVertices":0,"invalidIndices":0,"degenerateTriangles":0,"weakCoastalVertices":0,"validationRun":true} hash=2e47a05358b57ebd
+deterministico: true
+
+RESULTADO: TODAS AS VERIFICACOES PASSARAM
